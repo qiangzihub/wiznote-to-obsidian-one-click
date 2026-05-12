@@ -65,6 +65,7 @@ python3 wiznote_to_obsidian_one_click.py --output-base /path/to/obsidian-parent
 ## 常用参数
 
 - `--clean`：删除已有 `WizNotes` 后全量重建
+- `--vault-name NAME`：自定义输出目录名，默认 `WizNotes`
 - `--full`：全量跑一遍，但不先删除目录
 - `--force-title TEXT`：强制同步标题包含 `TEXT` 的笔记
 - `--force-guid GUID`：强制同步指定 docGuid
